@@ -10,7 +10,7 @@ get '/' do
 end
 
 get '/hello/:name' do
-  "Hello, #{params[:name]}"
+  "Hello, #{params[:name]} "
 end
 
 get '/hello' do
